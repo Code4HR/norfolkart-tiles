@@ -1,0 +1,12 @@
+{
+  "name": "norfolkart-tiles",
+  "version": "0.0.1",
+  "author": "c4hrva",
+  "dependencies": {
+    "tilestream": "1.1.0"
+  },
+  "engines":{ 
+    "node":"0.10.26",
+    "npm": "1.4.3"
+  }
+}
