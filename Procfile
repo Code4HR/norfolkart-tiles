@@ -1,1 +1,1 @@
-web: tilestream --host norfolkarttiles.herokuapp.com --host '*' --uiPort=$PORT --tilePort=$PORT --tiles=./tiles
+web: tilestream --host norfolkart-tiles.herokuapp.com --host '*' --uiPort=$PORT --tilePort=$PORT --tiles=./tiles
