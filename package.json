@@ -3,10 +3,16 @@
   "version": "0.0.1",
   "author": "c4hrva",
   "dependencies": {
-    "tilestream": "1.1.0"
+    "tilestream": "1.1.0",
+    "snyk": "^1.42.6"
   },
-  "engines":{ 
-    "node":"0.10.26",
+  "engines": {
+    "node": "0.10.26",
     "npm": "1.4.3"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

@@ -1,0 +1,19 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:backbone:20110701':
+    - tilestream > bones > backbone:
+        patched: '2017-10-11T13:57:57.208Z'
+  'npm:minimatch:20160620':
+    - tilestream > mbtiles > sqlite3 > node-pre-gyp > tar-pack > fstream-ignore > minimatch:
+        patched: '2017-10-11T13:57:57.208Z'
+  'npm:semver:20150403':
+    - tilestream > mbtiles > sqlite3 > node-pre-gyp > semver:
+        patched: '2017-10-11T13:57:57.208Z'
+  'npm:tar:20151103':
+    - tilestream > mbtiles > sqlite3 > node-pre-gyp > tar:
+        patched: '2017-10-11T13:57:57.208Z'
+    - tilestream > mbtiles > sqlite3 > node-pre-gyp > tar-pack > tar:
+        patched: '2017-10-11T13:57:57.208Z'
